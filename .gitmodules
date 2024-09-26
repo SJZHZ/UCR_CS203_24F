@@ -1,0 +1,3 @@
+[submodule "2024fa"]
+	path = 2024fa
+	url = git@github.com:CS203UCR/2024fa.git
