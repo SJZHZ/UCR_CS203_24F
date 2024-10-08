@@ -1,12 +1,20 @@
 # CS203_UCR_24F
+<<<<<<< HEAD
 ## Dealing with Assignment
+=======
+## Deal with Assignment
+>>>>>>> e073851007c03217c08048f1f8302775d9c4a8f8
 1. Update before modifying
     ```python
     ! ./fix-repo
     ! ./pull-updates
     ```
 2. Finish the assignment
+<<<<<<< HEAD
 3. Extract the answer cells
+=======
+3. Extract the answer cell
+>>>>>>> e073851007c03217c08048f1f8302775d9c4a8f8
     ```python
     !cs203 turnin assignment.ipynb
     !ls -lh assignment.turnin.ipynb
@@ -18,8 +26,13 @@
     !git push
     ```
 5. Submit and grade
+<<<<<<< HEAD
   [UCR_CS203_gradescope](https://www.gradescope.com/courses/863120)
 ## Git Skills
 ```bash
 git submodule update --remote
 ```
+=======
+    [UCR_CS203_gradescope](https://www.gradescope.com/courses/863120)
+## Git Skills
+>>>>>>> e073851007c03217c08048f1f8302775d9c4a8f8
