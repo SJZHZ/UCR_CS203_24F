@@ -7,6 +7,7 @@
     ```
 2. Finish the assignment
 3. Extract the answer cells
+3. Extract the answer cell
     ```python
     !cs203 turnin assignment.ipynb
     !ls -lh assignment.turnin.ipynb
