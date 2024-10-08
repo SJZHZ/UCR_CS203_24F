@@ -4,3 +4,6 @@
 [submodule "2024fa-cs203-hello-SJZHZ"]
 	path = 2024fa-cs203-hello-SJZHZ
 	url = git@github.com:CS203UCR/2024fa-cs203-hello-SJZHZ.git
+[submodule "2024fa-cs203-performance-SJZHZ"]
+	path = 2024fa-cs203-performance-SJZHZ
+	url = git@github.com:CS203UCR/2024fa-cs203-performance-SJZHZ.git
