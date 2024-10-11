@@ -10,3 +10,6 @@
 	path = 2024fa-cs203-performance-SJZHZ
 	url = git@github.com:CS203UCR/2024fa-cs203-performance-SJZHZ.git
 	branch = main
+[submodule "2024fa-cs203-memory-1-SJZHZ"]
+	path = 2024fa-cs203-memory-1-SJZHZ
+	url = git@github.com:CS203UCR/2024fa-cs203-memory-1-SJZHZ.git
