@@ -16,3 +16,6 @@
 [submodule "2024fa-cs203-markov-SJZHZ"]
 	path = 2024fa-cs203-markov-SJZHZ
 	url = git@github.com:CS203UCR/2024fa-cs203-markov-SJZHZ.git
+[submodule "2024fa-cs203-memory-2-SJZHZ"]
+	path = 2024fa-cs203-memory-2-SJZHZ
+	url = git@github.com:CS203UCR/2024fa-cs203-memory-2-SJZHZ.git
