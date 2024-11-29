@@ -25,3 +25,6 @@
 [submodule "2024fa-cs203-parallel-markov-SJZHZ"]
 	path = 2024fa-cs203-parallel-markov-SJZHZ
 	url = git@github.com:CS203UCR/2024fa-cs203-parallel-markov-SJZHZ.git
+[submodule "2024fa-cs203-parallelism-SJZHZ"]
+	path = 2024fa-cs203-parallelism-SJZHZ
+	url = git@github.com:CS203UCR/2024fa-cs203-parallelism-SJZHZ.git
