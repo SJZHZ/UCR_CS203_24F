@@ -84,7 +84,7 @@ yzhu303@ucr.edu
 9. Early restart
 	- As soon as the request word of the block arrives, send it to CPU letting it continue execution, instead of waiting for the whole block finished.
 	- Useful with large blocks, but not a benefit if we want the next sequential word.
-10.  Critical word first / Warped fetch and requested word first
+10. Critical word first / Warped fetch and requested word first
 	- Request the exact word first from memory and send it to CPU immediately. Let CPU continue execution while filling the rest of the block. 
 	- Useful with large blocks
 11. Write buffer
@@ -196,8 +196,11 @@ yzhu303@ucr.edu
 
 	Thus, 
 	$$\mathbf{\Delta{CPI_{avg}}}=\Delta{CPI_{miss\ penalty}}\times \frac{\#\ of\ Memory\ Accesses}{IC_{total}} \times Miss\ Rate$$
-1. Conflict gap
+4. Conflict gap
 	Number of sets: $$C=A\times BlockSize \times S \rightarrow S=\frac{C}{A\times BlockSize}$$ The address gap between two closest conflicting cache blocks in an associative cache is $$Gap=BlockSize\times S $$ Thus, $$B=A+Gap\times k, k \in \mathbb{Z}$$ More rigorously, any address within the corresponding block (any offset) is acceptable. $$B=\lfloor \frac{A}{Linesize}\rfloor \times Linesize + Gap\times k+t, k \in \mathbb{Z}, t \in \mathbb{Z} \cap [0, Linesize) $$
 5. L1&L2 TLB is in L1 cache, when L2 TLB miss, it happens to be a TLB miss.
 6. Compiler will automatically align in structures.
+    1. Members are laid out in declaration order, with potential padding in between
+    2. Each member is aligned to its alignment requirement (the largest factor from {1, 2, 4, 8})
+    3. The total size of the structure is rounded up to a multiple of the largest alignment requirement among all members.
 7. Static instructions: loop instructions in static code; dynamic instructions: loop instructions when running many times
